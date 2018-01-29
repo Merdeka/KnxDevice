@@ -24,7 +24,11 @@
 #ifndef KNXDPT_H
 #define KNXDPT_H
 
+// prepare for ESP8266 & ESP32 support ...
+#if defined ARDUINO_ARCH_ESP8266 || defined ARDUINO_ARCH_ESP32
+#else
 #include <avr/pgmspace.h> // DPT arrays are stored in flash using PROG MEMORY
+#endif
 
 // List of the DPT formats
 // A Character

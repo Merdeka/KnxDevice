@@ -49,7 +49,7 @@ This library is still under developpement. The next actions in the pipe are :
 | V0.1                        | experimental version                                 |
 | V0.2                        | read/write functions : support of boolean type added |
 | V0.3                        | read/write functions : support of double type added  |
-
+| V0.4                        | add support for ESP8266 and ESP32                    |
 
 ## API
 ### 1/ Define the communication objects
